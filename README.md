@@ -6,3 +6,7 @@
 
 - [Person Object OOP Example](09-12-23/PersonObjectExample/)
 - [Shape Abstract Class Example](09-12-23/ShapeAbstractionExample/)
+
+#### 09-14-23
+- [Person Class Methods](09-14-23/ProjSample/src/projsample/)
+- [Person Class Constructors](09-14-23/ProjSample/src/projsample/)
