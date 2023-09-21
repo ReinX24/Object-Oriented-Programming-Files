@@ -17,3 +17,6 @@
 - [Constructors (Video)](https://youtu.be/zoZ8uzpDiBA?si=o6X5w6J-1cmtu0vO)
 - [Object Methods (Video)](https://youtu.be/nlwXDmrF3Lg?si=_0vB5jGKU0muGH_g)
 - [Encapsulation (Video)](https://youtu.be/RkOgR2gTD20?si=D-arM3m1AaaxjDA-)
+
+#### 09-21-23
+- [Human, Student, and Employee Class](09-21-23/PrelimProjB1Exercise/src/prelimprojexercise/)
