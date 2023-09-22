@@ -32,7 +32,7 @@ public class PrelimProjExercise {
                 Student userStudent = new Student();
                 userStudent.askStudentDetails();
                 userStudent.evaluateStudentGrade();
-                userStudent.printUserDetails();
+                userStudent.printStudentDetails();
                 break;
                 
             // For creating a Employee object

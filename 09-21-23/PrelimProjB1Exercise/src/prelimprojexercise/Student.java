@@ -45,7 +45,7 @@ public class Student extends Human {
         this.averageGrade = (this.getPrelimGrade() + this.getMidtermGrade() + this.getFinalGrade()) / 3;
     }
 
-    public void printUserDetails() {
+    public void printStudentDetails() {
         // Calling the printUserDetails in the parent class for printing 
         // lastName, firstName, contactNumber, age, and weight
         super.printUserDetails();

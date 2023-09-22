@@ -20,3 +20,6 @@
 
 #### 09-21-23
 - [Human, Student, and Employee Class](09-21-23/PrelimProjB1Exercise/src/prelimprojexercise/)
+
+#### 09-22-23
+- [Java Arrays Review](09-22-23/JavaArraysReview/src/)
