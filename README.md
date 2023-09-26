@@ -23,3 +23,7 @@
 
 #### 09-22-23
 - [Java Arrays Review](09-22-23/JavaArraysReview/src/)
+
+
+#### 09-26-23
+- [Vehicle Project Sample](09-26-23/VehiclePrelimProjSample/src/)
