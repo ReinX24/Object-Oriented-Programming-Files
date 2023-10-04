@@ -40,13 +40,17 @@ public class STUDENT1 extends PERSON1 {
     public STUDENT1() {
     }
 
-    // ❖ Create a Constructor that will have the 7 parameters along with the 3 parameters from the PERSON1 class as shown above.
-    public STUDENT1(int studentYear, String studentDegree, String studentSection, int NOUEnrolled, double prelimGrade, double midtermGrade, double finalGrade, String firstName, String lastName, char sexCode) {
+    // ❖ Create a Constructor that will have the 7 parameters along with the 3 
+    // parameters from the PERSON1 class as shown above.
+    public STUDENT1(int studentYear, String studentDegree, 
+            String studentSection, int NOU, double prelimGrade, 
+            double midtermGrade, double finalGrade, 
+            String firstName, String lastName, char sexCode) {
         super(firstName, lastName, sexCode);
         this.studentYear = studentYear;
         this.studentDegree = studentDegree;
         this.studentSection = studentSection;
-        this.NOU = NOUEnrolled;
+        this.NOU = NOU;
         this.prelimGrade = prelimGrade;
         this.midtermGrade = midtermGrade;
         this.finalGrade = finalGrade;
