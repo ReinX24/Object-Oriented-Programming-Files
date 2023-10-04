@@ -22,8 +22,10 @@
 - [Human, Student, and Employee Class](09-21-23/PrelimProjB1Exercise/src/prelimprojexercise/)
 
 #### 09-22-23
-- [Java Arrays Review](09-22-23/JavaArraysReview/src/)
-
+- [Java Arrays Review](09-22-23/JavaArraysReview/src/javaarraysreview/javatutorials/)
 
 #### 09-26-23
-- [Vehicle Project Sample](09-26-23/VehiclePrelimProjSample/src/)
+- [Vehicle Project Sample](09-26-23/VehiclePrelimProjSample/src/vehicleprelimprojsample/)
+
+#### 10-04-23
+- [Prelim Lab Exam](10-04-23/PRELIMS_BLK1/src/prelims_blk1/)
