@@ -29,3 +29,6 @@
 
 #### 10-04-23
 - [Prelim Lab Exam](10-04-23/PRELIMS_BLK1/src/prelims_blk1/)
+
+#### 10-12-23
+- [Animal Abstraction Example](10-12-23/AbstractionDemo/src/abstractiondemo/)
