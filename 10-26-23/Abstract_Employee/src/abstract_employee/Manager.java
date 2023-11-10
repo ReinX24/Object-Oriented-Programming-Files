@@ -29,7 +29,7 @@ public class Manager extends Employee {
     // iv.	Total Salary: ______________
     @Override
     void displayInfo() {
-        System.out.println("  i.Manager Name: " + this.getEmpName());
+        System.out.println("  i. Manager Name: " + this.getEmpName());
         System.out.println(" ii. Basic Salary: " + this.getBasicSalary());
         System.out.println("iii. Annual Bonus: " + this.getBonus());
         System.out.println(" iv. Total Salary: " + this.grossSalary());

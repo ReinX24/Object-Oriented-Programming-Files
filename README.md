@@ -37,4 +37,5 @@
 - [Animal Interface Example](10-19-23/INTERFACE_BLK1/src/interface_blk1/)
 
 #### 10-26-23
+- [Abstract Shape Activity](10-26-23/Abstract_Blk1/src/abstract_blk1/)
 - [Abstract Employee Activity](10-26-23/Abstract_Employee/src/abstract_employee/)
