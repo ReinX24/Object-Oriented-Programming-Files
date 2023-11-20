@@ -2,6 +2,17 @@ package mp3;
 
 public class PERSON {
 
+    /*
+    2. Open a New Java Class as PERSON. It has the following details:
+        * It has 3 attributes:
+        a. Name (ex. Arnaldy D. Fortin)
+        b. Sex (ex. Male)
+        c. Age (ex. 38 )
+        * It has a Heading() method, and it displays the following:
+        Welcome to Universidad de Dagupan
+        <<< DATA ENTRY >>>
+        * Declare setters and getters.
+     */
     String Name;
     String Sex;
     int Age;

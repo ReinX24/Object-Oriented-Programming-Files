@@ -2,6 +2,10 @@ package mp2;
 
 public class PERSON {
 
+    /*
+        2. Open a New Java Class as PERSON (Follow the format in MP1.java).
+        3. Improve the PERSON class by adding Setters and Getters.
+     */
     private String lastName;
     private String firstName;
     private int Age;
@@ -15,7 +19,7 @@ public class PERSON {
         this.Age = Age;
     }
 
-    public void displayInfo() {
+    public void displayDetails() {
         System.out.println("<<< Personal Details >>>");
         System.out.println("Hi, my first name is " + this.getFirstName());
         System.out.println("And my last is " + this.getLastName());

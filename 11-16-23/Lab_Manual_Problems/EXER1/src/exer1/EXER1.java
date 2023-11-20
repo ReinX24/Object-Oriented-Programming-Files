@@ -13,7 +13,10 @@ public class EXER1 {
         b. subtraction
         c. multiplication
         d. division
-        
+         */
+        Scanner userInput = new Scanner(System.in);
+
+        /* 
         When values for the 2 integer numbers as firstNumber and secondNumber is given, respectively.
         
         Consider the I/O Layout shown below:
@@ -23,16 +26,7 @@ public class EXER1 {
         The DIFFERENCE is: ___________
         The PRODUCT is: ___________
         The QUOTIENT is: ___________
-        
-        NOTE:
-        The method SUM() returns the value of firstNumber + secondNumber
-        The method DIFFERENCE() returns the value of firstNumber - secondNumber
-        The method PRODUCT() returns the value of firstNumber * secondNumber
-        The method QUOTIENT() returns the value of firstNumber / secondNumber
-        
          */
-        Scanner userInput = new Scanner(System.in);
-
         System.out.print("Enter First Number: ");
         double firstNum = userInput.nextDouble();
 
@@ -46,6 +40,13 @@ public class EXER1 {
 
     }
 
+    /* 
+      NOTE:
+        The method SUM() returns the value of firstNumber + secondNumber
+        The method DIFFERENCE() returns the value of firstNumber - secondNumber
+        The method PRODUCT() returns the value of firstNumber * secondNumber
+        The method QUOTIENT() returns the value of firstNumber / secondNumber    
+     */
     private static double SUM(double firstNum, double secondNum) {
         return firstNum + secondNum;
     }

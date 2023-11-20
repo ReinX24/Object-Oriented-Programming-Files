@@ -9,22 +9,9 @@ public class EXER3 {
         /*
         EXER3.java
         1. Open a new Project in Java as EXER3.java.
-        
-        2. Create a PERSON class. Consider the following requirements.
-        
-        a. The PERSON class has 3 attributtes:
-        * name
-        * Salary
-        * sex code
-        b. The PERSON class has a blank constructor and a constructor with 3 parameters.
-        c. The PERSON class has the following regular methods:
-        * sexValue() method which tests for the sex code and output the message sex as either "Male" or "Female".
-        * Results() method which output the following details:
-        Hi, <name>.
-        You're doing good with your salary at <salary>.
-        And your Sex Code is <sexCode>.
-        
-        3. The main program will have the following details:
+         */
+ /*
+         3. The main program will have the following details:
         * import the Scanner class
         * Instantiate the Scanner class as SC.
         * Display and Accept values as shown in the INPUT Layout.

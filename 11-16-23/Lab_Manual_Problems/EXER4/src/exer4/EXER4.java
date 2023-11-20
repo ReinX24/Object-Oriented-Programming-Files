@@ -10,16 +10,6 @@ public class EXER4 {
         EXER4.java
         
         1. Open a New Project in Java as EXER4.java.
-        
-        2. Open a New Java class as PERSON. Copy & paste and MODIFY the attributes in EXER3.java.
-        • It has a sexValue() method which tests for the sex code and output the message sex as either
-        "Male" or "Female".
-        • It has a a TaxCalc() method which computes for the tax as 10% of the salary.
-        • It has a Results() method which output the following details:
-        Hi, <name>.
-        You're doing good with your salary at <salary>.
-        And your prevailing Income Tax at 10% of your Gross Salary is: <tax>.
-        And you're a <sex>.
          */
         Scanner SC = new Scanner(System.in);
 

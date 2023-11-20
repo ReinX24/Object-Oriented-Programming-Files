@@ -32,8 +32,9 @@ public class Abstract_Employee {
         double userBonus = SC.nextDouble();
         M.setBonus(userBonus);
 
+        System.out.println("<<< Manager Details Report >>>");
         M.displayInfo();
-
+        
         SC.nextLine();
         //display 20 dashes );
         System.out.println("--------------------");
@@ -66,6 +67,7 @@ public class Abstract_Employee {
         double programmerRatePerHour = SC.nextDouble();
         P.setRatePerHr(programmerRatePerHour);
 
+        System.out.println("<<< Programmer Details Report >>>");
         P.displayInfo();
     }
 

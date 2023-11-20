@@ -9,8 +9,8 @@ public class MP2 {
         /*
         MP2.java
         1. Open a New Project in Java as MP2.java (this is the main program).
-        2. Open a New Java Class as PERSON (Follow the format in MP1.java).
-        3. Improve the PERSON class by adding Setters and Getters.
+         */
+        /*
         4. Update also the main program.
          */
         Scanner SC = new Scanner(System.in);
@@ -34,7 +34,7 @@ public class MP2 {
 
         System.out.println("-");
         System.out.println("-");
-        person.displayInfo();
+        person.displayDetails();
     }
 
 }
