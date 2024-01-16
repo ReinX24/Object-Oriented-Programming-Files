@@ -19,10 +19,6 @@ public class abstractEmployee {
         System.out.print("No. of Years in Service: ");
         SV.setYrsOfService(SC.nextDouble());
         
-        // Calculating and setting our salaryBonus and serviceBonus.
-        SV.setSalaryBonus(SV.BonusSalary());
-        SV.setServiceBonus(SV.BonusSalary());
-        
         System.out.println("");
         System.out.println("<<< Supervisor Details Report >>>");
         SV.displayInfo();

@@ -31,6 +31,10 @@ public class IO_STREAMING2 {
 
             case 1: 
                 try {
+                // Creating the myOOP directory before we create our file
+                File myOOP = new File("C:\\myOOP");
+                myOOP.mkdir();
+
                 // Write a file and print its contents
                 if (myFile.createNewFile()) {
                     System.out.println("File created: " + myFile.getName());

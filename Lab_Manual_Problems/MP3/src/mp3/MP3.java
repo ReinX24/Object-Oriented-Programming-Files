@@ -3,84 +3,39 @@ package mp3;
 import java.util.Scanner;
 
 public class MP3 {
-    // TODO: Do MP3 tomorrow, this problem has been changed from the last one.
 
     public static void main(String[] args) {
-        /*
-        MP3.java
-        1. Open a New Project in Java as MP2.java.
-         */
 
- /*
-         4. The main class has the following details:
-        * Import a Scanner class.
-        * Instantiate a Scanner class as Kbd.
-        * Instantiate a STUDENT class as Stud.
-        * Display & Accept values based from the I/O Layout below.
-        * Generate the output based from the I/O Layout below.
-        I/O Layout:
-        Welcome to Universidad de Dagupan
-        <<< DATA ENTRY >>>
-        1] Enter Name: ___
-        2] Enter Sex : ___
-        3] Enter Age : ___
-        4] Enter Degree: ___
-        5] Enter Year[1,2,3,4]: ___
-        6] Enter No. of Units Enrolled: ___
-        -
-        -
-        1] Name: ___
-        2] Sex: ___
-        3] Age: ___
-        4] Degree: ___
-        5] Year (Words): ___
-        6] Units Enrolled: ___
-        7] Tuition Fee: ___
-        8] Total Fees: ___
-         */
-        Scanner Kbd = new Scanner(System.in);
+        Scanner SC = new Scanner(System.in);
+        Manager M = new Manager();
 
-        STUDENT Stud = new STUDENT();
+        Manager[] myManagers = new Manager[5];
 
-        Stud.Heading();
+        System.out.println("<<< Data Entry for Supervisor");
 
-        System.out.print("1] Enter Name: ");
-        String nameInput = Kbd.nextLine();
-        Stud.setName(nameInput);
+        for (int i = 0; i < myManagers.length; i++) {
+            System.out.println("Entry No: " + (i + 1));
 
-        System.out.print("2] Enter Sex: ");
-        String sexInput = Kbd.nextLine();
-        Stud.setSex(sexInput);
+            myManagers[i] = new Manager(); // creating our Manager object.
 
-        System.out.print("3] Enter Age: ");
-        int ageInput = Kbd.nextInt();
-        Stud.setAge(ageInput);
+            System.out.print("\tName: ");
+            myManagers[i].setEmpName(SC.nextLine());
 
-        Kbd.nextLine(); // fix console formatting
+            System.out.print("\tSalary: ");
+            myManagers[i].setSalary(SC.nextDouble());
 
-        System.out.print("4] Enter Degree: ");
-        String degreeInput = Kbd.nextLine();
-        Stud.setDegree(degreeInput);
+            System.out.print("\tNo. of Years in Service: ");
+            myManagers[i].setYrsOfService(SC.nextDouble());
 
-        System.out.print("5] Enter Year[1,2,3,4]: ");
-        int yearInput = Kbd.nextInt();
-        Stud.setYear(yearInput);
+            SC.nextLine(); // for fixing formatting errors inside the console.
+        }
 
-        System.out.print("6] Enter No. of Units Enrolled: ");
-        int unitsInput = Kbd.nextInt();
-        Stud.setNoUnitsEnrolled(unitsInput);
+        for (Manager eachManager : myManagers) {
+            System.out.println("");
+            System.out.println("<<< Manager Details Report >>>");
+            eachManager.displayInfo();
+        }
 
-        System.out.println("-");
-        System.out.println("-");
-
-        System.out.println("1] Name: " + Stud.getName());
-        System.out.println("2] Sex: " + Stud.getSex());
-        System.out.println("3] Age: " + Stud.getAge());
-        System.out.println("4] Degree: " + Stud.getDegree());
-        System.out.println("5] Year (Words): " + Stud.yearInWords());
-        System.out.println("6] Units Enrolled: " + Stud.getNoUnitsEnrolled());
-        System.out.println("7] Tuition Fee: " + Stud.tuitionFee());
-        System.out.println("8] Total Fees: " + Stud.totalFees());
     }
 
 }

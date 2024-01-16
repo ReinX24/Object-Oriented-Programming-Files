@@ -17,11 +17,11 @@
 ### MP Solutions
 - [MP1](MP1/src/mp1/)
 - [MP2](MP2/src/mp2/)
-- [MP3](MP3/src/mp3/) (PROBLEM CHANGED, SOLUTION TO BE CHANGED)
+- [MP3](MP3/src/mp3/)
 
 ### IO_STREAMING Solutions
 - [IO_STREAMING1](IO_STREAMING1/src/io_streaming1)
-- (IO_STREAMING2 TO BE ADDED)
+- [IO_STREAMING2](IO_STREAMING2/src/io_streaming2)
 
 ### Miscellaneous
 - [abstractEmployee](abstractEmployee/src/abstractemployee/)

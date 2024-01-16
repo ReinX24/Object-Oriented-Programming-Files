@@ -1,14 +1,14 @@
-package abstractemployee;
+package mp3;
 
-public class Supervisor extends Employee {
+public class Manager extends Employee {
 
     private double salaryBonus;
     private double serviceBonus;
 
-    public Supervisor() {
+    public Manager() {
     }
 
-    public Supervisor(double salaryBonus, double serviceBonus, String empName, double yrsOfService) {
+    public Manager(double salaryBonus, double serviceBonus, String empName, double yrsOfService) {
         super(empName, yrsOfService);
         this.salaryBonus = salaryBonus;
         this.serviceBonus = serviceBonus;
@@ -40,7 +40,7 @@ public class Supervisor extends Employee {
         // Calculating and setting salaryBonus and serviceBonus.
         this.setSalaryBonus(this.BonusSalary());
         this.setServiceBonus(this.BonusService());
-        
+
         System.out.println("Manager Name: " + this.getEmpName());
         System.out.println("Salary: " + this.getSalary());
         System.out.println("Salary Bonus: " + this.getSalaryBonus());
