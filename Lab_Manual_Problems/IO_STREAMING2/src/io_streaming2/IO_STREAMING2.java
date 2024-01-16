@@ -1,4 +1,4 @@
-package io_streaming1;
+package io_streaming2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,19 +6,19 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class IO_STREAMING1 {
+public class IO_STREAMING2 {
 
     public static void main(String[] args) {
         Scanner SC = new Scanner(System.in);
         int userChoice;
-        File myFile = new File("C:\\myOOP\\sampleko.txt");
+        File myFile = new File("C:\\myOOP\\sampleko.csv");
 
         System.out.println("<<< FILE MANIPULATION MENU >>>");
         System.out.println("");
-        System.out.println("1] Create a File --- sampleko.txt");
-        System.out.println("2] Write Data in the File --- sampleko.txt");
-        System.out.println("3] Read Data in the File --- sampleko.txt");
-        System.out.println("4] Delete the File --- sampleko.txt");
+        System.out.println("1] Create a File --- sampleko.csv");
+        System.out.println("2] Write Data in the File --- sampleko.csv");
+        System.out.println("3] Read Data in the File --- sampleko.csv");
+        System.out.println("4] Delete the File --- sampleko.csv");
         System.out.println("");
         System.out.print("Ano Pipiliin Mo [1/2/3/4]? ");
         userChoice = SC.nextInt();
