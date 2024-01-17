@@ -61,6 +61,7 @@ public class EXER6 {
             Parrot.setNoofLegs(SC.nextInt());
 
             System.out.println("-");
+            System.out.println("<<< BIRD DETAILS >>>");
             System.out.println("The bird's name is " + Parrot.getName() + ".");
             System.out.println("Its breed is " + Parrot.getBirdBreed() + ".");
             System.out.println("It is color " + Parrot.getKolor() + ".");

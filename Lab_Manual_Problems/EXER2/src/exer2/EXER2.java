@@ -36,6 +36,7 @@ public class EXER2 {
 
         Calculator myCalc = new Calculator(firstNum, secondNum);
 
+        System.out.println("");
         System.out.println("THE SUM is: " + myCalc.SUM());
         System.out.println("THE DIFFERENCE is: " + myCalc.DIFFERENCE());
         System.out.println("THE PRODUCT is: " + myCalc.PRODUCT());

@@ -11,14 +11,14 @@ public class IO_STREAMING2 {
     public static void main(String[] args) {
         Scanner SC = new Scanner(System.in);
         int userChoice;
-        File myFile = new File("C:\\myOOP\\sampleko.csv");
+        File myFile = new File("C:\\myOOP\\myfile.csv");
 
         System.out.println("<<< FILE MANIPULATION MENU >>>");
         System.out.println("");
-        System.out.println("1] Create a File --- sampleko.csv");
-        System.out.println("2] Write Data in the File --- sampleko.csv");
-        System.out.println("3] Read Data in the File --- sampleko.csv");
-        System.out.println("4] Delete the File --- sampleko.csv");
+        System.out.println("1] Create a File --- myfile.csv");
+        System.out.println("2] Write Data in the File --- myfile.csv");
+        System.out.println("3] Read Data in the File --- myfile.csv");
+        System.out.println("4] Delete the File --- myfile.csv");
         System.out.println("");
         System.out.print("Ano Pipiliin Mo [1/2/3/4]? ");
         userChoice = SC.nextInt();
@@ -71,6 +71,7 @@ public class IO_STREAMING2 {
             case 3:
             try {
                 // Reading the data in our file
+                System.out.println("Reading the contents...\n");
                 Scanner myReader = new Scanner(myFile);
                 while (myReader.hasNextLine()) {
                     String data = myReader.nextLine();

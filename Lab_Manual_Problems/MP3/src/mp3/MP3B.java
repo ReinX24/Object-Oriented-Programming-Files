@@ -2,7 +2,7 @@ package mp3;
 
 import java.util.Scanner;
 
-public class MP3 {
+public class MP3B {
 
     public static void main(String[] args) {
 

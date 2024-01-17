@@ -33,6 +33,7 @@ public class EXER1 {
         System.out.print("Enter Second Number: ");
         double secondNum = userInput.nextDouble();
 
+        System.out.println("");
         System.out.println("THE SUM is: " + SUM(firstNum, secondNum));
         System.out.println("THE DIFFERENCE is: " + DIFFERENCE(firstNum, secondNum));
         System.out.println("THE PRODUCT is: " + PRODUCT(firstNum, secondNum));

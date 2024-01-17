@@ -71,6 +71,7 @@ public class IO_STREAMING1 {
             case 3:
             try {
                 // Reading the data in our file
+                System.out.println("Reading the contents...\n");
                 Scanner myReader = new Scanner(myFile);
                 while (myReader.hasNextLine()) {
                     String data = myReader.nextLine();
