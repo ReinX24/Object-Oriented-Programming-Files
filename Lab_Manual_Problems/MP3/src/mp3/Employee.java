@@ -2,6 +2,10 @@ package mp3;
 
 public abstract class Employee {
 
+    /* 
+    2. Create a new Abstract class called Employee. Copy & Paste the contents of the Employee class from the
+    abstractEmployee.java.
+     */
     private String empName;
     private double yrsOfService;
     private double Salary;

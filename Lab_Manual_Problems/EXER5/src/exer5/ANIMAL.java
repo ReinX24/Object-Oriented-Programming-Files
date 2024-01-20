@@ -2,10 +2,21 @@ package exer5;
 
 public abstract class ANIMAL {
 
+    /*
+    2. Open a New Java class as ANIMAL.
+    a. It has the following attributes:
+    • Animal name (Name)
+    • Animal color (Kolor)
+    • Animal legs (NoofLegs)
+     */
     String Name;
     String Kolor;
     int NoofLegs;
 
+    /* 
+    b. It has an abstract method as AnimalSound().
+    c. It has a blank constructor. And another one with 3 parameters.
+     */
     public ANIMAL() {
         // Blank Constructor   
     }
@@ -17,6 +28,9 @@ public abstract class ANIMAL {
         this.NoofLegs = NoofLegs;
     }
 
+    /*    
+    d. Use setters and getters 
+     */
     public String getName() {
         return Name;
     }

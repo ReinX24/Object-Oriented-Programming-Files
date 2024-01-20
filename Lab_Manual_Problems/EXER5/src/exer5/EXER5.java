@@ -5,6 +5,18 @@ import java.util.Scanner;
 public class EXER5 {
 
     public static void main(String[] args) {
+        /* 
+        EXER5.java
+        1. Open a New Project in Java as EXER5.java (main program).
+         */
+
+ /*
+        4. The main program has the following requirements.
+        a. Import the Scanner class
+        b. Instantiate a scanner variable as SC.
+        c. Instantiate an object of type DOG, as Chihuahua.
+        d. Follow the I/O Layout as shown below
+         */
         Scanner SC = new Scanner(System.in);
         DOG Chihuahua = new DOG();
 

@@ -2,6 +2,10 @@ package exer6;
 
 public abstract class ANIMAL {
 
+    /* 
+    3. Open a New Java class as ANIMAL.
+    • Copy & Paste the contents of the ANIMAL class from EXER5.java
+     */
     String Name;
     String Kolor;
     int NoofLegs;

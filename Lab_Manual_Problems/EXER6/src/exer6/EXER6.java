@@ -5,6 +5,17 @@ import java.util.Scanner;
 public class EXER6 {
 
     public static void main(String[] args) {
+        /* 
+        EXER6.java
+        1. Open a New Project in Java as EXER6.java (main program)
+         */
+
+ /*
+        6. The main program has the following requirements.
+        a. Import the Scanner class
+        b. Instantiate a scanner variable as SC.
+        c. Instantiate an object of type DOG, as Chihuahua.
+         */
         Scanner SC = new Scanner(System.in);
 
         // Menu to test the creation of DOG and BIRD objects
@@ -18,6 +29,25 @@ public class EXER6 {
         if (userChoice == 1) {
             DOG Chihuahua = new DOG();
 
+            /* 
+        d. Follow the I/O Layout as shown below.
+        I/O Layout:
+        <<< DOG DATA ENTRY >>>
+        -
+        1] Dog Breed (pls. specify): _______
+        2] Dog Name: __________
+        3] Dog Color: __________
+        4] No. of Legs: _________
+        -
+        <<< DOG DETAILS >>>
+        The dog’s name is <Name>.
+        Its breed is <dogBreed>.
+        It is color <Kolor>.
+        And it has <NoofLegs> legs.
+        -
+        <Name> is a Land Animal.
+        All Land Animal can walk, run, and jump.
+             */
             System.out.println("<<< DOG DATA ENTRY >>>");
             System.out.println("-");
 

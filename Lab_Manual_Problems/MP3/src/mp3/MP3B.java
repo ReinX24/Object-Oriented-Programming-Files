@@ -5,7 +5,39 @@ import java.util.Scanner;
 public class MP3B {
 
     public static void main(String[] args) {
-
+        /* 1. Create a new Project: MP3.java */
+ /*
+        4. The main program has the following details:
+        //import a Scanner
+        //after the public static void main (String[] args){
+        //instantiate a Scanner variable as SC
+        //instantiate a Manager class as M and an Array of 5 managers.
+        //display <<< Data Entry for Supervisor >>>
+        //display and accept 5 inputs for the following
+        //Entry No: 1
+        // Name: __
+        // Salary: __
+        // No. of Years in Service: __
+        //Entry No: 2
+        // Name: __
+        // Salary: __
+        // No. of Years in Service: __
+        //Entry No: 3
+        // Name: __
+        // Salary: __
+        // No. of Years in Service: __
+        //Entry No: 4
+        // Name: __
+        // Salary: __
+        // No. of Years in Service: __
+        //Entry No: 5
+        // Name: __
+        // Salary: __
+        // No. of Years in Service: __
+        //display <<< Manager Details Report >>>
+        //Generate the results for each of the 5 Managers
+        //call displayInfo() from Manager class
+         */
         Scanner SC = new Scanner(System.in);
         Manager M = new Manager();
 

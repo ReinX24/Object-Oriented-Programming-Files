@@ -2,6 +2,10 @@ package mp3;
 
 public class Manager extends Employee {
 
+    /*
+    3. Create a subclass called Manager that extends the Employee class. Copy & Paste the contents of the Employee
+    class from the abstractEmployee.java.
+     */
     private double salaryBonus;
     private double serviceBonus;
 

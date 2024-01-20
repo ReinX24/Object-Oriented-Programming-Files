@@ -2,6 +2,13 @@ package exer6;
 
 public class DOG extends ANIMAL implements landAnimal {
 
+    /*
+    4. Open a New Java class as DOG and inherits from ANIMAL and landAnimal classes.
+    • Copy & Paste the contents of the DOG class from EXER5.java.
+    • It will execute the LandDetails() as:
+    <Name> is a Land Animal.
+    All Land Animal can walk, run, and jump.
+     */
     String dogBreed;
 
     public DOG() {

@@ -9,6 +9,12 @@ import java.util.Scanner;
 public class IO_STREAMING1 {
 
     public static void main(String[] args) {
+        /*
+        IO_STREAMING1.java
+        Write a Java program to generate the following requirements.
+        1. Open a New Project in Java as IO_STREAMING1.java (main program).
+        2. Generate the given I/O Layout
+         */
         Scanner SC = new Scanner(System.in);
         int userChoice;
         File myFile = new File("C:\\myOOP\\sampleko.txt");

@@ -9,6 +9,14 @@ import java.util.Scanner;
 public class IO_STREAMING2 {
 
     public static void main(String[] args) {
+        /*
+        IO_STREAMING2.java
+        Write a Java program to generate the following requirements.
+        3. Open a New Project in Java as IO_STREAMING2.java (main program).
+        4. Copy and Paste from IO_STREAMING1.java.
+        5. Replace the filename with myfile.csv.
+        6. Generate the given I/O Layout
+         */
         Scanner SC = new Scanner(System.in);
         int userChoice;
         File myFile = new File("C:\\myOOP\\myfile.csv");
